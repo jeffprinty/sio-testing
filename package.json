@@ -1,0 +1,13 @@
+{
+  "name": "sio-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chance": "^1.0.16",
+    "cypress": "^3.0.2"
+  },
+  "scripts": {
+    "start": "cypress open"
+  }
+}
