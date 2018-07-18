@@ -26,7 +26,7 @@ const iamProdUrl = 'https://iam.macmillanlearning.com';
 
 describe('Achieve Hosted Registration', () => {
   it('Should successfully register user', () => {
-    cy.visit(`${iamLocalURL}/register`);
+    cy.visit(`${iamDevTieURL}/register`);
     cy.get('#signup').should('be.disabled');
     cy.get('#firstName').type(firstName);
     cy.get('#lastName').type(lastName);
